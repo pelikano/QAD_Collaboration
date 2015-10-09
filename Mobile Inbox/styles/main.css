@@ -36,7 +36,7 @@
     background-color: #422e17;
 }
 .km-ios .km-view .km-navbar {
-    background-color: #604118;
+    background-color: #03A9F4;
 }
 .km-ios .km-view .km-tabstrip .km-button {
     background-color: #604118;
@@ -53,6 +53,19 @@
 }
 
 /* android specific styles */
+
+.km-android .km-view:not(.km-splitview) {
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.km-android .km-navbar .km-view-title /* After Q2 2012 SP1 */
+{
+    visibility: visible;
+}
+
 .km-android .km-shim,
 .km-android .km-popup,
 .km-android .k-slider,
@@ -73,7 +86,7 @@
     background-color: #422e17;
 }
 .km-android .km-view .km-navbar {
-    background-color: #604118;
+    background-color: #03A9F4;
 }
 .km-android .km-view .km-tabstrip .km-button.km-state-active {
     background-color: #133403;
